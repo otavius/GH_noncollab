@@ -1,5 +1,9 @@
+def hello_world(city):
+    print(f"Hello World from {city}")
+
+
 def main():
-    print("hello")
+    hello_world('ATL')
 
 
 if __name__ == "__main__":
